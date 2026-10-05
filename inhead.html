@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function display(){
+    var num1 = parseInt(document.getElementById("n1").value);
+    var num2 = parseInt(document.getElementById("n2").value);
+    var ans1=(num1+num2);
+    document.getElementById("s").value=ans;
+    return false;
+    }
+    function display(){
+    var num1 = parseInt(document.getElementById("n1").value);
+    var num2 = parseInt(document.getElementById("n2").value);
+    var ans1=(num1*num2);
+   
+</script>
+<body>
+    <form onsubmit="return display()">
+        <label for="">Enter num1:</label>
+        <input type="text" id="n1"/><br/>
+        <label for="">Enter num2:</label>
+        <input type="text" id="n2"/><br/>
+        <label>Result</label>
+        <input type="text" id="s"><br>
+        <input type="submit" value="submit">
+        <input type="submit" value="multiply">
+        <input type="submit" value="add">
+
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+let sum=0
+sum=sum+1
+sum=sum+2
+sum=sum+3
+console.log(sum)
